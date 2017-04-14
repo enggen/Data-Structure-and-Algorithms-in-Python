@@ -91,6 +91,51 @@ class LinkedList(object):
         print(nodeList)
 
     def deleteValue(self, data):
+        currentnode = self.head
+        previousnode = self.head
+
+        while currentnode.next != None or currentnode.data != data:
+            if currentnode.data == data:
+                previousnode.next = currentnode.next
+                self.length -= 1
+                return
+
+            else:
+                previousnode = currentnode
+                currentnode = currentnode.next
+
+        print("The data provided is not present")
+
+    def deleteBeg(self):
+        if self.length == 0:
+            print('The list is empty')
+        else:
+            self.head = self.head.next
+            self.length -= 1
+
+    def deleteAtPos(self, pos):
+        count = 0
+        currentnode = self.head
+        previousnode = self.head
+
+        if pos > self.length or pos < 0:
+            print('The position does not exist.')
+        elif pos == 1:
+            self.deleteBeg()
+        else:
+            while currentnode.next != None or count < pos:
+                count += 1
+                if count == pos:
+                    previousnode.next = currentnode.next
+                    self.length -= 1
+                    return
+                else:
+                    previousnode = currentnode
+                    currentnode = currentnode.next
+
+    def getLength(self):
+        return self.length
+
 
 
 
@@ -99,13 +144,26 @@ n1 = Node(7)
 n2 = Node(9)
 n3 = Node(5)
 n4 = Node(11)
+n5 = Node(23)
+n6 = Node(71)
+n7 = Node(99)
+
 
 ll = LinkedList()
 ll.addNode(n1)
 ll.addNode(n2)
 ll.addNode(n3)
+ll.addNode(n4)
+ll.addNode(n5)
+ll.addNode(n6)
+ll.addNode(n7)
 
 ll.printList()
+ll.deleteValue(23)
+# ll.deleteAtPos(4)
+# ll.deleteAtPos(1)
+ll.printList()
+print(ll.getLength())
 
 
 
