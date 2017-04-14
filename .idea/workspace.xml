@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6939ffb-e56f-4169-99a3-bbd410faf5ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Linked Lists/LinkedList.py" afterPath="$PROJECT_DIR$/Linked Lists/LinkedList.py" />
-    </list>
+    <list default="true" id="b6939ffb-e56f-4169-99a3-bbd410faf5ab" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file leaf-file-name="LinkedList.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linked Lists/LinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+            <state relative-caret-position="246">
+              <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -264,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linked Lists/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        <state relative-caret-position="246">
+          <caret line="130" column="20" lean-forward="true" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
           <folding />
         </state>
       </provider>
