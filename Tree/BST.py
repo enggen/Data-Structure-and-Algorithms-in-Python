@@ -73,8 +73,10 @@ insertNode(root, BSTNode(1))
 insertNode(root, BSTNode(5))
 insertNode(root, BSTNode(2))
 insertNode(root, BSTNode(9))
+insertNode(root, BSTNode(11))
 inOrderTraversal(root)
-
+print('\n')
+preOrderTraversal(root)
 
 
 
