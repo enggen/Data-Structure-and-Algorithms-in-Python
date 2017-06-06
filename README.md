@@ -15,7 +15,9 @@ Data Structure
 12. Ternary search
 13. Segment trees
 14. Splay trees
+
 Problem Solving using Data Structure & Algorithms
+
 1. Array
 2. Linked list
 3. Stacks
@@ -27,7 +29,9 @@ Problem Solving using Data Structure & Algorithms
 9. Backtracking
 10. Bit Manipulation
 11. Mathematical Algorithms
+
 Algorithms
+
 1. Analysis
 2. Sorting and Searching Techniques
 3. Divide and Conquer
