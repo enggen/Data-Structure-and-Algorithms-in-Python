@@ -8,5 +8,6 @@ Data Structure
 4. BST
 
 Sorting and Search
+1. Sequential Search
 
 
