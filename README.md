@@ -9,5 +9,6 @@ Basic Data Structure
 
 Sorting and Search Algorithms 
 1. Sequential Search
+2. Binary Search
 
 
